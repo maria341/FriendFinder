@@ -45,3 +45,5 @@ In this activity, you'll build a compatibility-based "FriendFinder" application 
 
 #HTML FILE FOR SURVEY PAGE
 
+![](
+
