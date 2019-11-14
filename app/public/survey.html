@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder | Survey</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1 style="font-size: 40px;">Friend Finder Survey!</h1>
+        </div>
+
+        <div class="panel panel-default" style="background-color:#42bff5">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>ABOUT YOU</strong></h3>
+            </div>
+            <div class="panel-body">
+                  <h4>Your Name (Required)</h4>
+            <div class="input-group">
+                <input id = "formName" class="form-control" type="text" name="name" placeholder="">
+                <span class="input-group-addon"></span>
+            </div>  
+            <br>
+            <h4>Link to Photo Image (Required)</h4>
+            <div class="input-group">
+                <input id = "formImage" class="form-control" type="text" name="name" placeholder="">
+                <span class="input-group-addon"></span>
+            </div>
+            </div>
+            </div>
+
+            <div class="panel panel-default" style="background-color:#42bff5">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Questions</strong></h3>
+                </div>
+                <div class="panel-body">
+
+                <!--Question 1-->
+                <h4><strong>Question 1</strong></h4>
+                <h5>Do I get upset easily?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q1">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 2</strong></h4>
+                <h5>Do I like keeping active in social media?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q2">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 3</strong></h4>
+                <h5>Math is my favorite subject?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q3">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 4</strong></h4>
+                <h5>I consider myself as an optimistic person?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q4">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 5</strong></h4>
+                <h5>Do I like being full stack developer?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q5">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 6</strong></h4>
+                <h5>Do I like being affectionate in public?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q6">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 7</strong></h4>
+                <h5>Do I love dog as my pet?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q7">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 8</strong></h4>
+                <h5>Does it takes me one hour to get ready going to work/school?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q8">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 9</strong></h4>
+                <h5>Do I love to play golf?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q9">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <h4><strong>Question 10</strong></h4>
+                <h5>Do I love to cook?</h5>
+                <select data-placeholder="" class="chosen-select" id="Q10">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                 </select>
+            
+             </div>
+             
+                 <br>
+		         <br>
+
+		          <!-- Submit Button -->
+		           <button type="submit" class="btn btn-primary btn-lg btn-block specialbutton" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i> Submit</button>
+                
+                <br>
+
+                <div id="resultsModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                
+                     <!-- Modal Content-->
+                     <div class="modal-content">
+                
+                     <!-- "X" Button to close the modal -->
+                    <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h2 class="modal-title"><strong>Meet Your New Friend!</strong></h2>
+                    </div>
+
+                    <div class="modal-body">
+                        <h2 id="matchName"></h2>
+                        <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+              
+                    </div>
+              
+                </div>
+             </div>
+           </div>   
+              
+        </div>
+               
+	     </div>
+
+        
+
+         <script src="https://code.jquery.com/jquery.js"></script>
+
+
+         
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     
+     
+         <!-- JavaScript for Submission Logic -->
+         <script>
+
+             const completeField;
+
+             $(document).ready(function() {
+                
+                $("#submit").on("click", function() {
+                    checkIfComplete(function() {
+                        if(completeField) {
+                            collectAnswers();
+                        } else{
+                            alert("Please answer all field before submit");
+                        }
+                    });
+                });
+             });
+
+             function checkIfComplete(callback) {
+                 const surveyCompleted;
+                 $(".chosen-select").each(function() {
+                     if( $(this).val() == "") {
+                         surveyCompleted = false;
+                     }
+                 })
+
+                 .promise().done(function() {
+                     if(surveyCompleted == false){
+                         completeField = false;
+                     }
+                     else if( $("#formName").val().trim() == "") {
+                         completeField = false;
+                     }
+                     else if( $("#formImage").val().trim() == "") {
+                         completeField = false;
+                     }
+
+                     else {
+                         completeField = true;
+                     }
+
+                     callback();
+                 });
+             }
+
+             function collectAnswers() {
+
+                 const newFriend = {
+                     name: $("#formName").val().trim(),
+                     photo: $("#formImage").val().trim(),
+                     scores: []
+                 };
+
+                 const scoresArray = [];
+                 $(".chosen-select").each(function() {
+                     scoresArray.push( parseInt( $(this).val() ) );
+                 })
+
+                 .promise().done(function() {
+                     newFriend.scores = scoresArray;
+
+                     const currentURL = window.location.origin;
+                     $.post(currentURL + "/api/friends", newFriend, function(data) {
+                         $("#matchName").text(data.name);
+                         $("#matchImg").attr("src", data.photo);
+                         $("#resultsModal").modal("toggle");
+
+                     });
+                 });
+
+             }
+
+
+        </script>
+
+    </body>
+
+    </html>
+
