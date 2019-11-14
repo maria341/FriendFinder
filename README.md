@@ -1,4 +1,3 @@
-# FriendFinder
 # Friend Finder - Node and Express Servers 
 
 ### Overview  
@@ -51,5 +50,5 @@ In this activity, you'll build a compatibility-based "FriendFinder" application 
     ]
 }
 ```
-
+![](https://github.com/maria341/FriendFinder/blob/master/app/public/images/Screenshot%204.png)
 
