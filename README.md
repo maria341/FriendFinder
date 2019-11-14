@@ -45,5 +45,5 @@ In this activity, you'll build a compatibility-based "FriendFinder" application 
 
 #HTML FILE FOR SURVEY PAGE
 
-![](
+![](https://github.com/maria341/FriendFinder/blob/master/app/public/images/screenshot1.png)
 
